@@ -18,6 +18,7 @@
 	justify-content: space-between;
 	margin-left: 33%;
 	margin-right: 33%;
+	padding-bottom: 1%;
 }
 
 #contact-icon{
@@ -3055,6 +3056,7 @@ ul.actions{
 	font-size: 250%;
 	margin-left: 20%;
 	margin-right: 10%;
+	min-width: 60%;
 
 }
 
@@ -3065,6 +3067,7 @@ ul.actions{
 	/* justify-content: center; */
 	/* justify-content: flex-start; */
 	padding-right: 20px;
+	
 }
 
 .skills-list span{
@@ -3085,4 +3088,13 @@ ul.actions{
 #skill-name{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
+}
+
+.contact-form{
+	display: flex;
+	margin: 0 auto;
+	/* margin-left: 15%;
+	margin-right: 15%; */
+	max-width: 60%;
+	min-width: 40%;
 }
