@@ -7,18 +7,35 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.skill-list {
+/* #project-links{
+	display: flex;
+	justify-content: space-between;
+} */
+
+.contact-icons{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	max-width: 100%;
-	height: auto;
+	justify-content: space-between;
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+#contact-icon{
+	text-decoration: none;
+}
+
+#contact-icon:hover{
+	mix-blend-mode: difference;
+	color: #e97770;
 
 }
 
-.skill-list img{
-	width: 30%;
+#resume{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
 }
+
 
 
 html, body, div, span, applet, object,
@@ -235,6 +252,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -1815,8 +1833,10 @@ input, select, textarea {
 
 	ul.actions {
 		list-style: none;
+		display: flex;
 		padding-left: 0;
 		margin: 3em 0 0 0;
+		justify-content: space;
 	}
 
 		ul.actions li {
