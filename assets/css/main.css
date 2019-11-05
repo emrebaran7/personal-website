@@ -30,13 +30,6 @@
 
 }
 
-#resume{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-}
-
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -252,7 +245,6 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-		justify-content: center;
 	}
 
 		.row > * {
@@ -1833,15 +1825,16 @@ input, select, textarea {
 
 	ul.actions {
 		list-style: none;
-		display: flex;
 		padding-left: 0;
-		margin: 3em 0 0 0;
-		justify-content: space;
+
+		/* margin: 3em 0 0 0; */
 	}
 
 		ul.actions li {
-			display: inline-block;
-			margin: 0 0.75em 0 0.75em;
+			display: flex;
+			flex-direction: row;
+
+			/* margin: 0 0.75em 0 0.75em; */
 			padding-left: 0;
 		}
 
@@ -2116,25 +2109,10 @@ input, select, textarea {
 
 /* Logo */
 
-
-.my-pic {
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-	margin-top: 1.5em ;
-	width: 20%;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	margin-bottom: 1.5em;
-}
-
 	#logo {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		width: 100%;
-		margin: 0 auto;
+		text-align: center;
+		position: relative;
 		top: 1.5em;
 	}
 
@@ -2977,7 +2955,7 @@ input, select, textarea {
 			}
 
 			#features ul.actions {
-				margin-top: 4em;
+				/* margin-top: 4em; */
 			}
 
 		/* Content */
@@ -3032,3 +3010,38 @@ input, select, textarea {
 						}
 
 	}
+
+/* My Pic */
+ul.actions{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.actions li{
+	margin: 10px;
+}
+
+#logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.my-pic{
+	min-width: 200px;
+	max-width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 736px) {
+  ul.actions li {
+    margin: 0;
+  }
+}
+
+.highlights{
+	display: flex;
+	justify-content: space-between;
+}
