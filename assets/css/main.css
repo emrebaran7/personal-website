@@ -3045,3 +3045,33 @@ ul.actions{
 	display: flex;
 	justify-content: space-between;
 }
+
+
+.skills-list{
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	font-size: 250%;
+	/* align-content: center; */
+}
+
+.skills-list li{
+	display: flex;
+	min-width: 33%;
+	padding-bottom: 5%;
+	/* justify-content: center; */
+}
+
+.skills-list span{
+	padding-left: 10px;
+}
+
+.non-devicon{
+	margin-top: 11.3px;
+}
+
+.skills-container{
+
+}
