@@ -3034,6 +3034,7 @@ ul.actions{
 	max-width: 400px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+
 }
 
 @media screen and (max-width: 736px) {
@@ -3097,4 +3098,8 @@ ul.actions{
 	margin-right: 15%; */
 	max-width: 60%;
 	min-width: 40%;
+}
+
+.image-container{
+
 }
