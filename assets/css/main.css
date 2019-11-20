@@ -3098,26 +3098,35 @@ ul.actions{
 }
 
 @media screen and (max-width: 736px) {
-  #logo h1 {
-    font-size: 1.25em;
-    letter-spacing: 0.2em;
-    z-index: 100;
-    position: relative;
-    top: 30px;
-  }
+	#logo h1 {
+	font-size: 1.25em;
+	letter-spacing: 0.2em;
+	z-index: 100;
+	position: relative;
+	top: 30px;
+	}
 
-  #logo p {
-    z-index: 100;
-    position: relative;
-    top: 30px;
-  }
+	#logo p {
+	z-index: 100;
+	position: relative;
+	top: 30px;
+	}
 
-  .wrapper.style1 .title {
-    color: #e97770;
-  }
+	.wrapper.style1 .title {
+	color: #e97770;
+	}
 
-  #intro p.style3 {
-    width: auto;
-    margin-top: 45px;
-  }
+	#intro p.style3 {
+	width: auto;
+	margin-top: 45px;
+	}
+}
+
+.technical-bullets li {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.technical-bullets{
+	min-height: 350px;
 }

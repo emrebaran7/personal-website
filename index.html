@@ -98,9 +98,19 @@
 						<div class="row aln-center">
 							<div class="col-6 col-12-medium">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="independentcamp.png" alt="independentcamp" /></a>
-									<h3><a href="#">IndependentCamp</a></h3>
+									<a href="https://independent-camp.herokuapp.com/" class="image featured"><img src="independentcamp.png" alt="independentcamp" /></a>
+									<h3><a href="https://independent-camp.herokuapp.com/">IndependentCamp</a></h3>
 									<p>A single-page clone of Bandcamp, an app which allows fans to purchase music directly from artists.</p>
+									<ul class="technical-bullets">
+										<li>Created distinct user experiences for fans and artists by establishing user_types in the Rails-PostgreSQL configuration,
+										which were coupled with React components on the front-end configured to render components customized to each user
+										experience.</li>
+										<li>Integrated AWS with Active Storage to store audio and image elements on the cloud, reducing server load and allowing the
+										app to scale gracefully.</li>
+										<li>Utilized HTML5 media elements for audio playback triggered by a custom event handler that loads the audio source from
+										respective song elements in the front-end state, designed to contain only necessary media URLs to prevent overloading on
+										client-side.</li>
+									</ul>
 									<ul class="actions">
 										<li><a target="_blank" href="https://independent-camp.herokuapp.com/" class="button style1">Live</a></li>
 										<li><a target="_blank" href="https://github.com/emrebaran7/independent_camp" class="button style1">GitHub</a></li>
@@ -109,10 +119,17 @@
 							</div>
 							<div class="col-6 col-12-medium">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="intelligent-ib.png" alt="intelligent-ib" /></a>
-									<h3><a href="#">Intelligent IB</a></h3>
-									<p>A data visualizer for initial public offerings on U.S. stock exchanges.</p>
-									<br>
+									<a href="https://emrebaran7.github.io/intelligent-ib/" class="image featured"><img src="intelligent-ib.png" alt="intelligent-ib" /></a>
+									<h3><a href="https://emrebaran7.github.io/intelligent-ib/">Intelligent IB</a></h3>
+									<p>A data visualizer designed for investment banks to monitor initial public offerings on U.S. stock exchanges.</p>
+									<ul class="technical-bullets">
+										<li>Built a custom scraper tool using Nokogiri gem in Ruby to traverse HTML nodes of 424B4 SEC filings and retrieve
+											offering information based on node type or style. The scraper then processes the retrieved data into JSON for
+											seamless integration with JavaScript methods.</li>
+										<li>Generated autocompleting search bars for intuitive data filtering and user experience.</li>
+										<li>Utilized D3 library to create interactive bar, column and pie charts displaying information like underwriting
+											fees in a particular sector, issuance volume in a particular year, top underwriters for an IPO.</li>
+									</ul>
 									<ul class="actions">
 										<li><a target="_blank" href="https://emrebaran7.github.io/intelligent-ib/" class="button style1">Live</a></li>
 										<li><a target="_blank" href="https://github.com/emrebaran7/intelligent-ib" class="button style1">GitHub</a></li>
@@ -127,29 +144,6 @@
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
 					<div class="title">Get in Touch</div>
-					<!-- Contact Form -->
-					<!-- <section class="contact-form">
-						<form method="post" action="mailto:emre.ersolmaz@gmail.com">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-small">
-									<input type="text" name="name" id="contact-name" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="text" name="email" id="contact-email" placeholder="Email" />
-								</div>
-								<div class="col-12">
-									<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" class="style1" value="Send" /></li>
-										<li><input type="reset" class="style2" value="Reset" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section> -->
-					<!-- Contact -->
 					<section class="contact-icons">
 						<a id="contact-icon" target="_blank" class="fas fa-envelope-square fa-3x" href="mailto:emre.ersolmaz@gmail.com"></a>
 						<a id="contact-icon" target="_blank" class="fab fa-linkedin fa-3x" href="https://www.linkedin.com/in/emre-ersolmaz/"></a>
